@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:../conf/my.cnf">
+<!ENTITY % file SYSTEM "file:../conf/httpd.conf">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
