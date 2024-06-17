@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:../conf/web.xml">
+<!ENTITY % file SYSTEM "file:../conf/log4j.properties">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
